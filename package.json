@@ -5,5 +5,10 @@
   "main": "index.html",
   "repository": "git@github.com:shitkom/i-shat-on-tihlde.git",
   "author": "Johan August Østbye <Johan.August@outlook.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  }
 }
