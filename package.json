@@ -10,5 +10,8 @@
     "autoprefixer": "^10.4.0",
     "postcss-cli": "^9.0.2",
     "tailwindcss": "^2.2.19"
+  },
+  "scripts": {
+    "build": " rm -r ./dist/* && npx tailwindcss -i ./style.css -o ./dist/style.css --minify && cp -r img dist && cp index.html dist/index.html"
   }
 }
